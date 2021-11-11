@@ -12,3 +12,9 @@ inventory:
 ```
 
 The included `rancid.py` is an example to walk through your rancid inventory, detecting what groups to look for devices in by checking the rancid_path/etc/rancid.conf config variable `LIST_OF_GROUPS`, ex. `LIST_OF_GROUPS="routers switches firewalls"`
+
+```
+% python rancid.py 
+{'cr2.lga6.company.local': Host: cr2.lga6.company.local, 'ms01.bos1.company.local': Host: ms01.bos1.company.local}
+{'routers': Group: routers, 'switches': Group: switches}
+```
