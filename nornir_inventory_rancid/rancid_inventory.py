@@ -175,6 +175,8 @@ class RancidInventory():
 
         return rancid_config
 
+    # TODO: This probably could use some improvement. This is mainly to translate between rancid-fe device
+    # platform names and the respective platform within napalm/nornir
     def process_platform_map(self, platform):
         if platform == "juniper":
             return "junos"
