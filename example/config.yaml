@@ -1,0 +1,8 @@
+---
+core:
+    num_workers: 100
+
+inventory:
+    plugin: "rancid_inventory.rancid_inventory.RancidInventory"
+    options:
+        rancid_path: "rancid"

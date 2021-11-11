@@ -1,0 +1,11 @@
+### cr2.lga6.company.local
+add user        cr2.lga6.company.local              rancid
+add password    cr2.lga6.company.local              password123
+add autoenable  cr2.lga6.company.local              1
+add method      cr2.lga6.company.local              ssh
+
+### ms01.bos1.company.local
+add user        ms01.bos1.company.local              rancid
+add password    ms01.bos1.company.local              password123
+add autoenable  ms01.bos1.company.local              1
+add method      ms01.bos1.company.local              ssh
